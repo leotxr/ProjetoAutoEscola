@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Teste</title>
+        <meta charset="utf-8"/>
+        <script src="evento.js"></script>
+        <link rel="stylesheet" type="text/css" href="index.css"/>
+        <script src="ajax.js"></script>
+    </head>
+
+    <body>
+        <header>
+            
+        </header>
+
+        <nav class="menu">
+
+            <style>
+                .menu ul li ul li,
+                .menu ul li,
+                .item
+                 {
+                    transition: all 0.5s;
+                    cursor: pointer;
+        
+                }
+        
+                .menu ul li ul li:hover,
+                .menu ul li:hover,
+                .item:hover {
+                    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+                    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+                    background-color: lightgrey;
+                    color: black;
+                }
+            </style>
+        
+            <ul>
+                <li><div class="itens" id="item1" onclick="carregar('inicio.html')">Página Inicial</div></li>
+                <li>
+                    <p>Níveis</p>
+                    <ul>
+                        <li><div class="itens" id="item2" onclick="carregar('form1.html')">Básico</div></li>
+                        <li><div class="itens" id="item3" onclick="carregar('form2.html')">Intermediário</div></li>
+                        <li><div class="itens" id="item4" onclick="carregar('form3.html')">Avançado</div></li>
+                         
+                    </ul>
+                </li>
+                <li>Sobre o Site
+                    <ul>
+                        <a href="http://instagram.com/txrleo">
+                            <li>Responsavel</li>
+                        </a>
+                        <a href="parceiros.html">
+                            <li>Parceiros</li>
+                        </a>
+                    </ul>
+                </li>
+        
+            </ul>
+        </nav>
+
+        <section>
+
+        </section>
+
+        <article>
+            <div id="conteudo">
+                <h1>Pagina Inicial</h1>
+                <h4>Simulado</h4>
+                <p>Exemplo</p>
+            </div>
+        </article>
+
+        <footer>
+            <p>Simulado Online</p>
+        </footer>
+
+    </body>
+</html>
